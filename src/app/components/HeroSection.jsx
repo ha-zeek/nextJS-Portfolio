@@ -18,15 +18,13 @@ const HeroSection = () => {
 							sequence={[
 								"Haziq",
 								1000,
-								"Web Developer",
+								"a Web Developer",
 								1000,
-								"Full Stack Developer",
-								1000,
-								"Technology Enthusiast",
+								"a FullStack Developer",
 								1000,
 							]}
 							wrapper="span"
-							speed={40}
+							speed={30}
 							repeat={Infinity}
 						/>
 					</h1>

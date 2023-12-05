@@ -10,10 +10,26 @@ const TAB_DATA = [
 		id: "languages",
 		content: (
 			<ul>
-				<li>PHP</li>
-				<li>Javascript</li>
-				<li>Python</li>
-				<li>SQL</li>
+				<li>
+					<span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">
+						PHP
+					</span>
+				</li>
+				<li>
+					<span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">
+						Javascript
+					</span>
+				</li>
+				<li>
+					<span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">
+						Python
+					</span>
+				</li>
+				<li>
+					<span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">
+						SQL
+					</span>
+				</li>
 			</ul>
 		),
 	},
@@ -22,15 +38,51 @@ const TAB_DATA = [
 		id: "technologies",
 		content: (
 			<ul>
-				<li>Node.js</li>
-				<li>React</li>
-				<li>MongoDB</li>
-				<li>ExpressJS</li>
-				<li>Laravel</li>
-				<li>TailwindCSS</li>
-				<li>AlpineJS</li>
-				<li>Livewire</li>
-				<li>MySQL</li>
+				<li>
+					<span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">
+						Node.js
+					</span>
+				</li>
+				<li>
+					<span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">
+						React
+					</span>
+				</li>
+				<li>
+					<span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">
+						MongoDB
+					</span>
+				</li>
+				<li>
+					<span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">
+						ExpressJS
+					</span>
+				</li>
+				<li>
+					<span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">
+						Laravel
+					</span>
+				</li>
+				<li>
+					<span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">
+						TailwindCSS
+					</span>
+				</li>
+				<li>
+					<span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">
+						AlpineJs
+					</span>
+				</li>
+				<li>
+					<span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">
+						Livewire
+					</span>
+				</li>
+				<li>
+					<span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded">
+						MySQL
+					</span>
+				</li>
 			</ul>
 		),
 	},
@@ -39,8 +91,16 @@ const TAB_DATA = [
 		id: "education",
 		content: (
 			<ul>
-				<li>Taylor's University</li>
-				<li>General Assembly</li>
+				<li>
+					<span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
+						Taylor's University
+					</span>
+				</li>
+				<li>
+					<span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
+						General Assembly
+					</span>
+				</li>
 			</ul>
 		),
 	},
