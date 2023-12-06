@@ -18,7 +18,7 @@ const navLinks = [
 
 const Navbar = () => {
 	return (
-		<nav class="bg-black border-gray-700 ">
+		<nav class="bg-black border-gray-700 fixed w-full z-20 top-0 start-0 ">
 			<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 				<a href={"/"} class="flex items-center space-x-3 rtl:space-x-reverse">
 					<img src="/images/logo-hz.jpg" class="h-10" alt="Hazeek Logo" />

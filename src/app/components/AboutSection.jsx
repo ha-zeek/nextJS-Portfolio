@@ -91,14 +91,14 @@ const TAB_DATA = [
 		id: "education",
 		content: (
 			<ul>
-				<li>
+				<li className="mb-2">
 					<span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
-						Taylors University
+						Taylors University - Bachelor in Biotechnology (Hons.)
 					</span>
 				</li>
 				<li>
 					<span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
-						General Assembly
+						General Assembly - Software Engineering Immersive Bootcamp
 					</span>
 				</li>
 			</ul>
@@ -130,12 +130,12 @@ const AboutSection = () => {
 						About Me
 					</h2>
 					<p className=" text-base font-serif lg:text-lg ">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-						ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat.
+						I'm a software developer with a mix of bootcamp discipline and
+						self-taught creativity. Coding is my passion, and I love turning
+						complex problems into simple solutions. I'm always exploring and
+						learning new things in tech!
 					</p>
-					<div className="flex flex-row mt-8">
+					<div className="flex flex-row mt-8 font-serif">
 						<TabButton
 							selectTab={() => handleTabChange("languages")}
 							active={tab === "languages"}>
@@ -155,7 +155,7 @@ const AboutSection = () => {
 							Education{" "}
 						</TabButton>
 					</div>
-					<div className="mt-8">
+					<div className="mt-8 font-serif ">
 						{TAB_DATA.find((t) => t.id === tab).content}
 					</div>
 				</div>

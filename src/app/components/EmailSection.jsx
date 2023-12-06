@@ -38,14 +38,17 @@ const EmailSection = () => {
 
 	return (
 		<section
-			className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-6"
+			className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-6 "
 			id="contact">
 			<div>
-				<h5 className="text-xl font-bold text-white my-2"> Lets Connect</h5>
-				<p className="text-gray-200 mb-4 max-w-md">
-					I am currently looking for new opportunities, my inbox is always open.
-					Whether you have a question or just want to say hi, I will try my best
-					to get back to you!
+				<h5 className="text-xl font-bold text-white my-2 font-serif">
+					{" "}
+					Lets Connect!
+				</h5>
+				<p className="text-gray-200 mb-4 max-w-md font-serif">
+					I'm on the lookout for new opportunities and my inbox is always
+					welcoming. Feel free to reach out, whether it is a query or a simple
+					hello. I will do my best to respond promptly!
 				</p>
 				<div className="socials flex flex-row gap-4">
 					<Link href="https://github.com/ha-zeek">

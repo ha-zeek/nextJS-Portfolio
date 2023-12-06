@@ -5,9 +5,11 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
+import Link from "next/link";
+
 const HeroSection = () => {
 	return (
-		<section>
+		<section className="pt-20">
 			<div className="grid grid-cols-1 sm:grid-cols-12">
 				<motion.div
 					initial={{ opacity: 0, scale: 0.5 }}
@@ -36,14 +38,19 @@ const HeroSection = () => {
 						/>
 					</h1>
 					<p className="text-gray-300 text-lg sm:text-lg lg:text-xl font-serif">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Feel free to contact me or download my resume!{" "}
 					</p>
 					<div className="mt-3">
-						<button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-white hover:bg-gray-600 hover:text-white text-black font-serif">
-							Contact Me
+						<button className="px-6 py-3 rounded-lg sm:w-fit mr-4 bg-white hover:bg-teal-600 hover:text-white text-black font-serif">
+							<Link href="#contact">Contact Me</Link>
 						</button>
-						<button className="px-6 py-3 rounded-full sm:w-fit mt-3 bg-white hover:bg-gray-600 hover:text-white text-black font-serif">
-							Resume
+						<button className="px-6 py-3 rounded-lg sm:w-fit mt-3 bg-white hover:bg-teal-600 hover:text-white text-black font-serif">
+							<Link
+								href="/pdf/resume_dec_2023.pdf"
+								target="_blank"
+								rel="noopener noreferrer">
+								Resume
+							</Link>
 						</button>
 					</div>
 				</motion.div>

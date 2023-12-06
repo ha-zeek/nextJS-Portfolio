@@ -9,38 +9,48 @@ const projectData = [
 	{
 		id: 1,
 		title: "Book App",
-		description: "Book App description",
+		description: "An app that stores information of your book collection",
 		image: "/projects/BookAppSS.png",
 		tag: ["All", "Web"],
-		gitUrl: "/",
-		previewUrl: "/",
+		gitUrl: "https://github.com/ha-zeek/BookApp",
+		previewUrl: "https://bookapp-bjot.onrender.com/",
 	},
 	{
 		id: 2,
 		title: "Dan's List",
-		description: "Dan's List description",
+		description: "A simple add to cart app",
 		image: "/projects/DansListSS.png",
 		tag: ["All", "Web"],
-		gitUrl: "/",
-		previewUrl: "/",
+		gitUrl: "https://github.com/ha-zeek/DansList",
+		previewUrl: "https://dans-list.vercel.app/",
 	},
 	{
 		id: 3,
 		title: "Space Invader",
-		description: "Space Invader description",
+		description: "A clone of the Space Invader game",
 		image: "/projects/SpaceInvadersSS.png",
 		tag: ["All", "Web"],
-		gitUrl: "/",
-		previewUrl: "/",
+		gitUrl: "https://github.com/ha-zeek/ProjectSpaceInvader",
+		previewUrl: "https://ha-zeek.github.io/ProjectSpaceInvader/",
 	},
 	{
 		id: 4,
 		title: "Movie App",
-		description: "Movie App description",
+		description:
+			"An app that lets you search of a movie and returns information regarding them",
 		image: "/projects/MovieSS.png",
 		tag: ["All", "Web"],
-		gitUrl: "/",
-		previewUrl: "/",
+		gitUrl: "https://github.com/ha-zeek/MovieDeets",
+		previewUrl: "https://movie-deets.vercel.app/",
+	},
+	{
+		id: 5,
+		title: "React Portfolio",
+		description: "A personal portfolio built using ReactJs",
+		image: "/projects/ReactPortfolioSS.png",
+		tag: ["All", "Web"],
+		gitUrl: "https://github.com/ha-zeek/Portfolio_Project",
+		previewUrl: "https://portfolio-project-hazel.vercel.app/",
 	},
 ];
 
@@ -66,10 +76,10 @@ const ProjectSection = () => {
 
 	return (
 		<div ref={ref} id="project">
-			<h1 className="text-center text-4xl font-bold text-white mt-4">
+			<h1 className="text-center text-4xl font-serif font-bold text-white mt-4">
 				My Projects
 			</h1>
-			<div className="flex flex-row justify-center items-center gap-2 mt-3 py-6">
+			<div className="flex flex-row justify-center items-center gap-2 mt-3 py-6 font-serif">
 				<ProjectTag
 					onClick={handleTagChange}
 					name="All"
@@ -83,7 +93,7 @@ const ProjectSection = () => {
 			</div>
 			<ul
 				ref={ref}
-				className="grid md:grid-cols-3 gap-8 md:gap-12 content-center">
+				className="grid md:grid-cols-3 gap-8 md:gap-12 content-center font-serif">
 				{filteredProjects.map((project, index) => (
 					<motion.li
 						key={index}
