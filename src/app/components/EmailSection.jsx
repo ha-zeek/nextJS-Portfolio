@@ -46,7 +46,7 @@ const EmailSection = () => {
 					Lets Connect!
 				</h5>
 				<p className="text-gray-200 mb-4 max-w-md font-serif">
-					I'm on the lookout for new opportunities and my inbox is always
+					I am on the lookout for new opportunities and my inbox is always
 					welcoming. Feel free to reach out, whether it is a query or a simple
 					hello. I will do my best to respond promptly!
 				</p>
