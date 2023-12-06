@@ -130,9 +130,9 @@ const AboutSection = () => {
 						About Me
 					</h2>
 					<p className=" text-base font-serif lg:text-lg ">
-						I'm a software developer with a mix of bootcamp discipline and
+						I am a software developer with a mix of bootcamp discipline and
 						self-taught creativity. Coding is my passion, and I love turning
-						complex problems into simple solutions. I'm always exploring and
+						complex problems into simple solutions. I am always exploring and
 						learning new things in tech!
 					</p>
 					<div className="flex flex-row mt-8 font-serif">
