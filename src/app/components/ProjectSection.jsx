@@ -13,7 +13,7 @@ const projectData = [
 		image: "/projects/BookAppSS.png",
 		tag: ["All", "Web"],
 		gitUrl: "https://github.com/ha-zeek/BookApp",
-		previewUrl: "https://bookapp-bjot.onrender.com/",
+		previewUrl: "https://peach-jaguar-wig.cyclic.app/",
 	},
 	{
 		id: 2,
